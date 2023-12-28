@@ -47,19 +47,6 @@ export default function Header() {
           </Button>
         </CardFooter>
       </Card>
-
-      <Card
-        className="col-span-12 sm:col-span-4 h-[300px] group hover:shadow-lg transition duration-300 ease-in-out"
-      >
-        <CardHeader className="absolute z-10 top-1 flex-col !items-start"></CardHeader>
-        <Image
-          removeWrapper
-          alt="Card background"
-          className="z-0 w-full h-full object-cover"
-          src="/gratitude.jpg"
-        />
-      </Card>
-
       <Card
         className="col-span-12 sm:col-span-4 h-[300px] group hover:shadow-lg transition duration-300 ease-in-out"
       >
@@ -80,6 +67,20 @@ export default function Header() {
           </Button>
         </CardFooter>
       </Card>
+
+      <Card
+        className="col-span-12 sm:col-span-4 h-[300px] group hover:shadow-lg transition duration-300 ease-in-out"
+      >
+        <CardHeader className="absolute z-10 top-1 flex-col !items-start"></CardHeader>
+        <Image
+          removeWrapper
+          alt="Card background"
+          className="z-0 w-full h-full object-cover"
+          src="/gratitude.jpg"
+        />
+      </Card>
+
+      
 
       <Card
         className="col-span-12 sm:col-span-4 h-[300px] group hover:shadow-lg transition duration-300 ease-in-out"
