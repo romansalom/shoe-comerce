@@ -3,6 +3,7 @@ import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
 
 export default function Header() {
   return (
+ 
     <div className="container mx-auto max-w-[1100px] gap-2 grid grid-cols-12 grid-rows-2 px-8 mt-12">
       <Card
         isFooterBlurred
@@ -18,7 +19,7 @@ export default function Header() {
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
             <p className="text-black text-tiny">Proximamente Disponibles</p>
-            <p className="text-black text-tiny">Enterate de los proximos lanzamientos</p>
+          
           </div>
           <Button className="text-tiny" color="primary" radius="full" size="sm">
             Ver Calendario
@@ -40,10 +41,10 @@ export default function Header() {
         <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div className="flex flex-col">
             <p className="text-tiny text-white">Disponibles en la tienda</p>
-            <p className="text-tiny text-white">Encuentra el calzado que más te guste</p>
+  
           </div>
           <Button className="text-tiny" color="primary" radius="full" size="sm">
-            Ver Calendario
+            Ver Tienda
           </Button>
         </CardFooter>
       </Card>
@@ -59,8 +60,8 @@ export default function Header() {
         />
         <CardFooter className="absolute bg-white bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div className="flex flex-col">
-            <p className="text-tiny text-black">Autentifica tu calzado</p>
             <p className="text-tiny text-black">Aprende a verificar tu calzado</p>
+           
           </div>
           <Button className="text-tiny" color="primary" radius="full" size="sm">
             Ver Articulo
@@ -76,8 +77,17 @@ export default function Header() {
           removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/gratitude.jpg"
+          src="/logo.jpeg"
         />
+          <CardFooter className="absolute bg-black/90 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+          <div className="flex flex-col">
+            <p className="text-tiny text-white">Quienes Somos ?</p>
+
+          </div>
+          <Button className="text-tiny" color="primary" radius="full" size="sm">
+            Ver Mas
+          </Button>
+        </CardFooter>
       </Card>
 
       

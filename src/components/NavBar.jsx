@@ -25,6 +25,11 @@ export default function App() {
       Autenticación
     </Link>
   </NavbarItem>
+  <NavbarItem isActive>
+    <Link color="foreground" href="#">
+      Nosotros
+    </Link>
+  </NavbarItem>
 </NavbarContent>
 
 
@@ -42,6 +47,7 @@ export default function App() {
         <DropdownItem key="new">Tienda</DropdownItem>
         <DropdownItem key="copy">Proximos Lanzamientos</DropdownItem>
         <DropdownItem key="edit">Autenticación</DropdownItem>
+        <DropdownItem key="nos">Nosotros</DropdownItem>
        
       </DropdownMenu>
     </Dropdown>
