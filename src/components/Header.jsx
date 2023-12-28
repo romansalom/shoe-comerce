@@ -35,7 +35,7 @@ export default function Header() {
         removeWrapper
         alt="Card background"
         className="z-0 w-full h-full object-cover"
-        src="/public/imagen3.jpg"
+        src="/imagen3.jpg"
       />
     </Card>
     <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
@@ -66,7 +66,7 @@ export default function Header() {
         removeWrapper
         alt="Relaxing app background"
         className="z-0 w-full h-full object-cover"
-        src="/public/imagen4.jpg"
+        src="/imagen4.jpg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
         <div className="flex flex-grow gap-2 items-center">
