@@ -16,9 +16,9 @@ export default function Header() {
           className="z-0 w-full h-full scale-125 -translate-y-6 object-cover transition duration-300 ease-in-out transform group-hover:scale-150"
           src="/offWhite.jpg"
         />
-        <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+        <CardFooter className="absolute bg-black/90 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div>
-            <p className="text-black text-tiny">Proximamente Disponibles</p>
+            <p className="text-white text-tiny">Proximamente Disponibles</p>
           
           </div>
           <Button className="text-tiny" color="primary" radius="full" size="sm">
@@ -38,7 +38,7 @@ export default function Header() {
           className="z-0 w-full h-full object-cover transition duration-300 ease-in-out transform group-hover:scale-105"
           src="/imagen4.jpg"
         />
-        <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+        <CardFooter className="absolute bg-black/90 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div className="flex flex-col">
             <p className="text-tiny text-white">Disponibles en la tienda</p>
   
@@ -58,9 +58,9 @@ export default function Header() {
           className="z-0 w-full h-full object-cover transition duration-300 ease-in-out transform group-hover:scale-105"
           src="/authen.jpg"
         />
-        <CardFooter className="absolute bg-white bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+        <CardFooter className="absolute bg-black/90 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
           <div className="flex flex-col">
-            <p className="text-tiny text-black">Aprende a verificar tu calzado</p>
+            <p className="text-tiny text-white">Aprende a verificar tu calzado</p>
            
           </div>
           <Button className="text-tiny" color="primary" radius="full" size="sm">
