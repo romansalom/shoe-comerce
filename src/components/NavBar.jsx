@@ -6,29 +6,28 @@ export default function App() {
   return (
     <Navbar isBordered>
         
-      <NavbarBrand>
+        <NavbarBrand>
+  <p className="font-bold text-inherit">ShoePedia</p>
+</NavbarBrand>
+<NavbarContent className="hidden sm:flex gap-8 justify-end items-center" > {/* Increased spacing and right-aligned */}
+  <NavbarItem isActive>
+    <Link color="foreground" href="/">
+      Tienda
+    </Link>
+  </NavbarItem>
+  <NavbarItem isActive>
+    <Link color="foreground" href="#">
+      Proximos Lanzamientos
+    </Link>
+  </NavbarItem>
+  <NavbarItem isActive>
+    <Link color="foreground" href="#">
+      Autenticación
+    </Link>
+  </NavbarItem>
+</NavbarContent>
 
-        <p  className="font-bold text-inherit">ShoePedia</p>
-      </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem isActive>
-          <Link color="foreground" href="/">
-            Tienda
-          </Link>
-        </NavbarItem>
-       
 
-        <NavbarItem  isActive>
-          <Link color="foreground"href="#" >
-          Proximos Lanzamientos
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link color="foreground" href="#">
-          Autenticación
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="sm:hidden  gap-4" >
         <Dropdown>
