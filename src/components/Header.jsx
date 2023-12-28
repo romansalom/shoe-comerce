@@ -100,8 +100,17 @@ export default function Header() {
           removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover transition duration-300 ease-in-out transform group-hover:scale-105"
-          src="/imagen3.jpg"
+          src="/mantenimineto.webp"
         />
+        <CardFooter className="absolute bg-black/90 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+          <div className="flex flex-col">
+            <p className="text-tiny text-white">Aprende a mantener tu calzado como nuevo</p>
+
+          </div>
+          <Button className="text-tiny" color="primary" radius="full" size="sm">
+            Ver Consejos
+          </Button>
+        </CardFooter>
       </Card>
     </div>
   );

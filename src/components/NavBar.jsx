@@ -29,12 +29,17 @@ export default function App() {
   </NavbarItem>
   <NavbarItem isActive>
     <Link color="foreground" href="#">
-      Proximos Lanzamientos
+    Calendario
     </Link>
   </NavbarItem>
   <NavbarItem isActive>
     <Link color="foreground" href="#">
       Autenticación
+    </Link>
+  </NavbarItem>
+  <NavbarItem isActive>
+    <Link color="foreground" href="#">
+      Mantenimiento
     </Link>
   </NavbarItem>
   <NavbarItem isActive>
@@ -57,9 +62,11 @@ export default function App() {
       </DropdownTrigger>
       <DropdownMenu aria-label="Static Actions" >
         <DropdownItem key="new">Tienda</DropdownItem>
-        <DropdownItem key="copy">Proximos Lanzamientos</DropdownItem>
+        <DropdownItem key="copy">Calendario</DropdownItem>
         <DropdownItem key="edit">Autenticación</DropdownItem>
+        <DropdownItem key="nos">Mantenimiento</DropdownItem>
         <DropdownItem key="nos">Nosotros</DropdownItem>
+       
        
       </DropdownMenu>
     </Dropdown>
