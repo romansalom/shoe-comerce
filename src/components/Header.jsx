@@ -76,7 +76,7 @@ export default function Header() {
         <Image
           removeWrapper
           alt="Card background"
-          className="z-0 w-full h-full object-cover"
+          className="z-0 w-full h-full object-cover transition duration-300 ease-in-out transform group-hover:scale-105"
           src="/logo.jpeg"
         />
           <CardFooter className="absolute bg-black/90 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
@@ -99,7 +99,7 @@ export default function Header() {
         <Image
           removeWrapper
           alt="Card background"
-          className="z-0 w-full h-full object-cover"
+          className="z-0 w-full h-full object-cover transition duration-300 ease-in-out transform group-hover:scale-105"
           src="/imagen3.jpg"
         />
       </Card>
