@@ -29,7 +29,7 @@ export default function App() {
     </Link>
   </NavbarItem>
   <NavbarItem isActive>
-    <Link color="foreground" href="#">
+    <Link color="foreground" href="/preuba">
     Calendario
     </Link>
   </NavbarItem>
