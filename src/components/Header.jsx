@@ -63,7 +63,7 @@ export default function Header() {
             <p className="text-tiny text-white">Aprende a verificar tu calzado</p>
            
           </div>
-          <Button className="text-tiny" color="primary" radius="full" size="sm">
+          <Button className="text-tiny" color="primary" radius="full" size="sm" href="/nostros">
             Ver Articulo
           </Button>
         </CardFooter>
@@ -84,9 +84,15 @@ export default function Header() {
             <p className="text-tiny text-white">Quienes Somos ?</p>
 
           </div>
-          <Button className="text-tiny" color="primary" radius="full" size="sm">
-            Ver Mas
-          </Button>
+          <Button
+    className="text-tiny"
+    color="primary"
+    radius="full"
+    size="sm"
+    onClick={() => window.location.href = "/nosotros"}
+  >
+    Ver Mas
+  </Button>
         </CardFooter>
       </Card>
 
