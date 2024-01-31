@@ -1,5 +1,5 @@
 
-README - Aplicación Web con Next.js, React y Tailwind CSS
+Aplicación Web con Next.js, React y Tailwind CSS
 Descripción
 Esta aplicación web es un proyecto de prueba que utiliza Next.js como framework de React y se apoya en Tailwind CSS para la estilización. El objetivo principal es explorar la integración de Next.js con Tailwind CSS para el desarrollo eficiente de interfaces de usuario.
 
