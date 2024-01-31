@@ -1,8 +1,9 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+README - Aplicación Web con Next.js, React y Tailwind CSS
+Descripción
+Esta aplicación web es un proyecto de prueba que utiliza Next.js como framework de React y se apoya en Tailwind CSS para la estilización. El objetivo principal es explorar la integración de Next.js con Tailwind CSS para el desarrollo eficiente de interfaces de usuario.
 
-Currently, two official plugins are available:
+Funcionalidades
+React y Next.js: Aprovecha las ventajas de React para construir componentes reutilizables y la eficiencia de Next.js para el enrutamiento y la creación de aplicaciones web rápidas y eficientes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tailwind CSS: Utiliza Tailwind CSS como herramienta de estilización. Tailwind facilita el diseño rápido y personalizable con clases utilitarias.
